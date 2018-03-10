@@ -1,7 +1,13 @@
-Languguagem: python
-python:
-  - "3.4"
-script:
-  - cd src; python teste.py
-
-Arlei
+def inicializar():
+  tab= [ ]
+  for i in range(3):
+    linha = [ ]
+    for j in range(3):
+      linha.append(".")
+    tab.append(linha)
+  returntab
+defmain( ):
+  jogo = inicializar( )
+  print(jogo)
+if__name__ == "__main__":
+main()
